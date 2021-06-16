@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,700;1,700&display=swap");
+
+:root {
+  --primaryColor: #007dbc;
+  --greyBorder: #d9dde1;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #001018;
+}
+
+h3 {
+  color: #001018;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+button {
+  padding: 10px 40px;
+  margin: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  background-color: var(--primaryColor);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #00689d;
+}
+
+select {
+  font-weight: 700;
+  border: 1px solid var(--greyBorder);
+  min-width: 50px;
+  height: 40px;
+}
+
+select:focus {
+  outline: none;
+}
+
+label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #646467;
+}
+
+.error {
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 30px;
+  margin: 30px auto;
+  background-color: tomato;
+  border-radius: 5px;
+  max-width: 600px;
+}
